@@ -5,9 +5,7 @@
   "main": "./src/server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon --env-file=.env ./src/server",
-    "test": "jest",
-    "build": "webpack --config webpack.config.js"
+    "dev": "nodemon --env-file=.env ./src/server"
   },
   "author": "",
   "license": "ISC",
